@@ -1,11 +1,54 @@
+* {
+ /* border: 1px solid red;*/
+}
 
 .App {
-  text-align: center;
+  font-family: 'Architects Daughter';
 }
 
 .App-header {
-  background-color: #222;
-  padding:20px;
-  color: grey;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #2352A4;
+}
+
+.h2_2 {
+  height: 40px;
+  padding-bottom:0px;
+}
+
+.nav {
+  color:#515151;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+img {
+  margin-top:0px;
+
+}
+
+.h2_1 {
+  background-color: #515151;
+  color:#fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top:0px;
+ 
+}
+
+.form-inline {
+  background-color: #515151;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+.t-head {
+  background-color: #000;
+  color:#2352A4;
+  font-size:18px;
+  margin-bottom: 0px;
 }
